@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5    #how many database connections you have in the pool
+
+development:
+  <<: *default   #inherit from the default tag above
+  database: rails-sample_development   #two database, this is the first
+
+test:
+  <<: *default   #inherits from the default above
+  database: rails-sample_test   #this is the second database. We don't want the databases to interact with each other and we want the
+                                # test database to be dumpable
+
+production:
+  <<: *default
+  database: rails-sample_production
+  username: rails-sample
+  password: <%= ENV['RAILS-SAMPLE_DATABASE_PASSWORD'] %>

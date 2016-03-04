@@ -1,0 +1,41 @@
+git allows you to save files at certain points in time and are stored in git respository. You can have as many versions as you want..
+
+You can use any files on Git
+
+
+basic git workflow
+
+ls.f shows you dot files
+ls -lA shows dot files
+
+if you type in above two lines of code in git folder, you'l see .git and ..
+
+
+various commands
+
+git commit
+git log
+git add
+git commit -m "message"
+git hist
+git checkout -b feature1
+git status
+git diff <file>
+git checkout
+git reset HEAD readme.md  #unstages files
+git commit -m is different from git commit. If you use git commit, you cna type in your commit message in ATOM. 
+git branch
+git checkout master
+git merge (merge with a branch, very important)
+git branch -d feature1
+git branch -D (force delete)
+git show SHA:<file>
+git branch - d <branch> (this deletes local branches)
+git checkout -b my-feature-branch
+
+
+
+Questions:
+1) What is Master and Head?
+2) git remote add origin https://github.com/Jwan622/git-intro1.git
+remote someplace outside of your machine

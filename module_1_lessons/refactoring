@@ -1,0 +1,7 @@
+signs you need to refactor:
+
+poor naming: (person_array. You need to change it later)
+long methods: (doing too much. If you need to describe the method with "and", you need to refactor. You should probably have those
+              be separate methods if that's it's time to refactor. Long methods can almost always be refactor.)
+dependencies: If there are a lot, then you need
+duplicate code:

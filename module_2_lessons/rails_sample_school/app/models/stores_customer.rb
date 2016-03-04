@@ -1,0 +1,1 @@
+class StoresCustomer < ActiveRecord::Base

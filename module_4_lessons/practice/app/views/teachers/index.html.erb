@@ -1,0 +1,5 @@
+<div class="">
+  <% @teachers.each do |teacher| %>
+    <%= link_to teacher.last_name, teacher_path(teacher) %>
+  <% end %>
+</div>

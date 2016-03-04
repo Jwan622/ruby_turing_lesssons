@@ -1,0 +1,6 @@
+<<-eos
+  Hello World
+eos
+
+The above lien is how you get a multiline string. You can also use html and erb in the
+multiline string.

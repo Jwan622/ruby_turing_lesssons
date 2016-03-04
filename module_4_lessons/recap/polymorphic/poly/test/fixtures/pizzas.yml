@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  crust: MyString
+  displayable_id: 1
+  displayable_type: MyString
+
+two:
+  crust: MyString
+  displayable_id: 1
+  displayable_type: MyString

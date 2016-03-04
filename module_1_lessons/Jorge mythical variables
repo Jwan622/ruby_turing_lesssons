@@ -1,0 +1,10 @@
+$color = global variable
+@@color = class variable? #is that right?. all instances of the class share this value.
+@color = instance variable
+color = only in the method is the scope.
+
+
+if you want to access your path:
+~
+atom .
+select bash_profile

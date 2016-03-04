@@ -1,0 +1,10 @@
+<% @schools.each do |school| %>
+  <p><%= school.id %></p>
+  <p><%= school.uid %></p>
+  <p><%= school.overweight_percentage %></p>
+  <p><%= school.obese_percentage %></p>
+  <p><%= school.county_id %></p>
+  <p><%= school.created_at %></p>
+  <%= link_to "Destroy School", school_path(school.id), method: :delete %>
+  <%= link_to "Update School", edit_school_path(school.id) %>
+<% end %>
